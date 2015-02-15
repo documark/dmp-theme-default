@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "Documark default theme, includes handy plugins to get started right away!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mauvm/documark-theme-default.git"
@@ -25,10 +22,10 @@
   "dependencies": {
     "documark-chapter-numbering": "^0.1.0",
     "documark-hr-to-page-break": "^0.2.0",
-    "documark-page-meta": "^0.1.0",
+    "documark-page-meta": "^0.2.0",
     "documark-plugin-loader": "^0.1.0",
-    "documark-relative-paths": "^0.1.0",
-    "documark-table-of-contents": "^0.1.0",
+    "documark-relative-paths": "^0.2.0",
+    "documark-table-of-contents": "^0.2.0",
     "run-series": "^1.0.2",
     "stylus": "^0.50.0",
     "stylus-renderer": "^1.1.0"
