@@ -72,22 +72,9 @@ u, .underline
 
 // COVER
 cover
+	position: relative
 	display: block
-	height: 100%
-	img.cover-image
-		position: absolute
-		top: 0
-		left: 0
-		z-index: -99
-		width: 100%
-		height: auto
-		margin-top: 40px
-	.image-overlay
-		padding-top: 80px
-		& > *
-			margin-right: 40px
-			color: white
-			text-shadow: 1px 1px 200px black
+	height: 62.42em // TODO(mauvm): Find proper fix
 	h1
 		margin: 0
 		font-size: 50px
@@ -109,20 +96,6 @@ cover
 				width: 100px
 			&:last-child
 				margin-bottom: 0
-
-// PREPEND
-chapter.prepend
-	h2
-		margin-top: 60px
-	table.signature
-		height: 150px
-		td
-			position: relative
-		span.comment
-			position: absolute
-			bottom: 10px
-			right: 10px
-			font-size: 12px
 
 // TABLE OF CONTENTS
 tableofcontents
