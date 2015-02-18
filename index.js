@@ -23,7 +23,10 @@ module.exports = function themeDefault ($, document, cb) {
 				require('documark-chapter-numbering'),
 				require('documark-relative-paths'),
 				require('documark-hr-to-page-break')
-			], next);
+			])
+				.then(function ($) { next(); })
+				.fail(next)
+				;
 		}
 	], cb);
 };
