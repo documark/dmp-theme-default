@@ -25,7 +25,7 @@
     "documark-page-meta": "^0.2.0",
     "documark-plugin-loader": "^0.1.0",
     "documark-relative-paths": "^0.2.0",
-    "documark-table-of-contents": "^0.2.0",
+    "documark-table-of-contents": "^0.2.2",
     "run-series": "^1.0.2",
     "stylus": "^0.50.0",
     "stylus-renderer": "^1.1.0"
