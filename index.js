@@ -3,7 +3,7 @@ var path   = require('path');
 var series = require('run-series');
 var stylus = require('stylus-renderer');
 
-module.exports = function themeDefault ($, document, cb) {
+module.exports = function documarkThemeDefault ($, document, done) {
 	series([
 		function (next) {
 			// Add theme stylesheet
@@ -23,10 +23,10 @@ module.exports = function themeDefault ($, document, cb) {
 				require('documark-chapter-numbering'),
 				require('documark-relative-paths'),
 				require('documark-hr-to-page-break')
-			])
-				.then(function ($) { next(); })
-				.fail(next)
-				;
+			], next);
+				// .then(function ($) { next(); })
+				// .fail(next)
+				// ;
 		}
-	], cb);
+	], done);
 };
