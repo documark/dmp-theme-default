@@ -1,6 +1,6 @@
 {
   "name": "documark-theme-default",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Documark default theme, includes handy plugins to get started right away!",
   "main": "index.js",
   "repository": {
@@ -10,6 +10,7 @@
   "keywords": [
     "documark",
     "documark-theme",
+    "documark-plugin",
     "default",
     "standard"
   ],

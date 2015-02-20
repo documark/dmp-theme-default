@@ -17,3 +17,16 @@ Default theme with handy plugins to get started right away!
 	plugins:
 	  - documark-theme-default
 	```
+
+## Plugins
+
+These plugins will be at your disposal:
+
+- [documark-plugin-loader](https://github.com/mauvm/documark-plugin-loader)
+- [documark-page-meta](https://github.com/mauvm/documark-page-meta)
+- [documark-table-of-contents](https://github.com/mauvm/documark-table-of-contents)
+- [documark-chapter-numbering](https://github.com/mauvm/documark-chapter-numbering)
+- [documark-relative-paths](https://github.com/mauvm/documark-relative-paths)
+- [documark-hr-to-page-break](https://github.com/mauvm/documark-hr-to-page-break)
+
+See `package.json` for plugin versions.
