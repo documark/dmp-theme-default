@@ -24,7 +24,7 @@
     "documark-chapter-numbering": "^0.1.0",
     "documark-hr-to-page-break": "^0.2.0",
     "documark-page-meta": "^0.2.0",
-    "documark-plugin-loader": "^0.1.0",
+    "documark-plugin-loader": "^0.2.0",
     "documark-relative-paths": "^0.2.0",
     "documark-table-of-contents": "^0.2.2",
     "run-series": "^1.0.2",
