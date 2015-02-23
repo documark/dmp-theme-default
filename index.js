@@ -17,21 +17,18 @@ module.exports = function documarkThemeDefault ($, document, done) {
 		},
 		function (next) {
 			// Run these at the end
-			var plugins = document.plugins();
-
-			plugins.push(require('documark-table-of-contents'));
-			plugins.push(require('documark-chapter-numbering'));
-			plugins.push(require('documark-relative-paths'));
-			plugins.push(require('documark-hr-to-page-break'));
-			plugins.push(require('documark-page-meta'));
+			document.plugins().push(
+				require('documark-table-of-contents'),
+				require('documark-chapter-numbering'),
+				require('documark-relative-paths'),
+				require('documark-hr-to-page-break'),
+				require('documark-page-meta')
+			);
 
 			// Run these now
 			document.applyPlugins($, [
 				require('documark-plugin-loader')
 			], next);
-				// .then(function ($) { next(); })
-				// .fail(next)
-				// ;
 		}
 	], done);
 };
