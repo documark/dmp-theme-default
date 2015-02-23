@@ -98,24 +98,25 @@ cover
 				margin-bottom: 0
 
 // TABLE OF CONTENTS
-tableofcontents
-	display: block
-	page-break-before: always
-	h1
-		padding: 20px 0 40px
-	li
-		span.chapter-title
-			display: inline-block
-			padding-bottom: 6px
-		span.page-number
-			float: right
+chapter table-of-contents
+	ul
+		margin: 0
+		list-style-type: none
+		li
+			padding: 0
+			span.chapter-title
+				display: inline-block
+				padding: 0 0 6px
+			span.page-number
+				float: right
 	ul.index-1 > li
-		padding-bottom: 18px
+		padding: 0 0 18px
+		page-break-inside: avoid
 		> span.chapter-title,
-		> span.chapter-number
+		> span.page-number
 			font-weight: bold
 	ul.index-3
-		font-style: italic;
+		font-style: italic
 
 // CHAPTER
 chapter
