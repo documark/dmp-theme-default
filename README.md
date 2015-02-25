@@ -8,7 +8,7 @@ Default theme with handy plugins to get started right away!
 
 	```bash
 	npm init
-	npm install documark-theme-default --save
+	npm install documark documark-theme-default --save
 	```
 
 2. Add the plugin to your `document.jade` front-matter:
@@ -22,11 +22,11 @@ Default theme with handy plugins to get started right away!
 
 These plugins will be at your disposal:
 
-- [documark-plugin-loader](https://github.com/mauvm/documark-plugin-loader)
-- [documark-table-of-contents](https://github.com/mauvm/documark-table-of-contents)
-- [documark-chapter-numbering](https://github.com/mauvm/documark-chapter-numbering)
-- [documark-relative-paths](https://github.com/mauvm/documark-relative-paths)
-- [documark-hr-to-page-break](https://github.com/mauvm/documark-hr-to-page-break)
-- [documark-page-meta](https://github.com/mauvm/documark-page-meta)
+- [documark-plugin-loader](https://www.npmjs.com/package/documark-plugin-loader)
+- [documark-table-of-contents](https://www.npmjs.com/package/documark-table-of-contents)
+- [documark-chapter-numbering](https://www.npmjs.com/package/documark-chapter-numbering)
+- [documark-relative-paths](https://www.npmjs.com/package/documark-relative-paths)
+- [documark-hr-to-page-break](https://www.npmjs.com/package/documark-hr-to-page-break)
+- [documark-page-meta](https://www.npmjs.com/package/documark-page-meta)
 
 See `package.json` for plugin versions.
