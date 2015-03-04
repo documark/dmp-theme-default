@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/mauvm/dmp-theme-default",
   "dependencies": {
-    "dmp-chapter-numbering": "~0.1.2",
+    "dmp-chapter-numbering": "~0.2.2",
     "dmp-hr-to-page-break": "~0.2.2",
     "dmp-page-meta": "~0.2.2",
     "dmp-plugin-loader": "~0.2.2",
