@@ -3,7 +3,7 @@ var path   = require('path');
 var series = require('run-series');
 var stylus = require('stylus-renderer');
 
-module.exports = function documarkThemeDefault ($, document, done) {
+module.exports = function dmpThemeDefault ($, document, done) {
 	series([
 		function (next) {
 			// Add theme stylesheet
@@ -18,16 +18,16 @@ module.exports = function documarkThemeDefault ($, document, done) {
 		function (next) {
 			// Run these at the end
 			document.plugins().push(
-				require('documark-table-of-contents'),
-				require('documark-chapter-numbering'),
-				require('documark-relative-paths'),
-				require('documark-hr-to-page-break'),
-				require('documark-page-meta')
+				require('dmp-table-of-contents'),
+				require('dmp-chapter-numbering'),
+				require('dmp-relative-paths'),
+				require('dmp-hr-to-page-break'),
+				require('dmp-page-meta')
 			);
 
 			// Run these now
 			document.applyPlugins($, [
-				require('documark-plugin-loader')
+				require('dmp-plugin-loader')
 			], next);
 		}
 	], done);

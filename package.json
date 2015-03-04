@@ -1,11 +1,11 @@
 {
-  "name": "documark-theme-default",
-  "version": "0.1.6",
+  "name": "dmp-theme-default",
+  "version": "0.1.7",
   "description": "Documark default theme, includes handy plugins to get started right away!",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mauvm/documark-theme-default.git"
+    "url": "https://github.com/mauvm/dmp-theme-default.git"
   },
   "keywords": [
     "documark",
@@ -17,16 +17,16 @@
   "author": "Maurits van Mastrigt <maurits@nerdieworks.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mauvm/documark-theme-default/issues"
+    "url": "https://github.com/mauvm/dmp-theme-default/issues"
   },
-  "homepage": "https://github.com/mauvm/documark-theme-default",
+  "homepage": "https://github.com/mauvm/dmp-theme-default",
   "dependencies": {
-    "documark-chapter-numbering": "~0.1.0",
-    "documark-hr-to-page-break": "~0.2.0",
-    "documark-page-meta": "~0.2.0",
-    "documark-plugin-loader": "~0.2.0",
-    "documark-relative-paths": "~0.2.0",
-    "documark-table-of-contents": "~0.3.0",
+    "dmp-chapter-numbering": "~0.1.2",
+    "dmp-hr-to-page-break": "~0.2.2",
+    "dmp-page-meta": "~0.2.2",
+    "dmp-plugin-loader": "~0.2.2",
+    "dmp-relative-paths": "~0.2.2",
+    "dmp-table-of-contents": "~0.3.2",
     "run-series": "~1.0.2",
     "stylus": "~0.50.0",
     "stylus-renderer": "~1.1.0"
