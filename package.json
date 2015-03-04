@@ -1,6 +1,6 @@
 {
   "name": "dmp-theme-default",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Documark default theme, includes handy plugins to get started right away!",
   "main": "index.js",
   "repository": {
