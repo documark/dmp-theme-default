@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/dmp-theme-default.svg)](http://badge.fury.io/js/dmp-theme-default)
 [![dependency status](https://david-dm.org/mauvm/dmp-theme-default.svg)](https://david-dm.org/mauvm)
 
-> Default theme with handy plugins to get started right away!
+> Default theme with basic styling and handy plugins to get you started right away!
 
 ## Usage
 
