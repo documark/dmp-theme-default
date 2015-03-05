@@ -24,7 +24,7 @@
     "dmp-chapter-numbering": "~0.2.2",
     "dmp-hr-to-page-break": "~0.2.2",
     "dmp-page-meta": "~0.2.2",
-    "dmp-plugin-loader": "~0.2.2",
+    "dmp-plugin-loader": "~0.3.0",
     "dmp-relative-paths": "~0.2.2",
     "dmp-table-of-contents": "~0.3.2",
     "run-series": "~1.0.2",
