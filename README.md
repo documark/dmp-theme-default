@@ -26,8 +26,8 @@
 These plugins will be at your disposal:
 
 - [dmp-plugin-loader](https://www.npmjs.com/package/dmp-plugin-loader)
-- [dmp-table-of-contents](https://www.npmjs.com/package/dmp-table-of-contents)
 - [dmp-chapter-numbering](https://www.npmjs.com/package/dmp-chapter-numbering)
+- [dmp-table-of-contents](https://www.npmjs.com/package/dmp-table-of-contents)
 - [dmp-relative-paths](https://www.npmjs.com/package/dmp-relative-paths)
 - [dmp-hr-to-page-break](https://www.npmjs.com/package/dmp-hr-to-page-break)
 - [dmp-page-meta](https://www.npmjs.com/package/dmp-page-meta)

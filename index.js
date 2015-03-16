@@ -1,8 +1,8 @@
 module.exports = function dmpThemeDefault ($, document, done) {
 	// Run these at the end
 	document.plugins().push(
-		require('dmp-table-of-contents'),
 		require('dmp-chapter-numbering'),
+		require('dmp-table-of-contents'),
 		require('dmp-relative-paths'),
 		require('dmp-hr-to-page-break'),
 		require('dmp-page-meta')
