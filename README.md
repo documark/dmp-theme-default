@@ -1,7 +1,7 @@
 # Documark Default Theme
 
 [![npm version](https://badge.fury.io/js/dmp-theme-default.svg)](http://badge.fury.io/js/dmp-theme-default)
-[![dependency status](https://david-dm.org/mauvm/dmp-theme-default.svg)](https://david-dm.org/mauvm)
+[![dependency status](https://david-dm.org/documark/dmp-theme-default.svg)](https://david-dm.org/documark/dmp-theme-default)
 
 > Default theme with basic styling and handy plugins to get you started right away!
 
