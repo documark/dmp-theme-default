@@ -14,7 +14,7 @@
 	npm install documark dmp-theme-default --save
 	```
 
-2. Add the plugin to your `document.jade` front-matter:
+2. Add the plugin to your [document configuration][document-configuration]:
 
 	```yaml
 	plugins:
@@ -33,3 +33,5 @@ These plugins will be at your disposal:
 - [dmp-page-meta](https://www.npmjs.com/package/dmp-page-meta)
 
 See `package.json` for plugin versions.
+
+[document-configuration]: https://github.com/documark/documark#configuration
